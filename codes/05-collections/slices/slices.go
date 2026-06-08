@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func slices() {
 
 	nullSlice := []int{}
 	fmt.Println("Null slice:", nullSlice)
