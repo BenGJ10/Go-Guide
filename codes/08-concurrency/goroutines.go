@@ -17,7 +17,7 @@ func slowGreet(str string, done chan bool) {
 	close(done)
 }
 
-func main() {
+func goroutineSample() {
 	done := make(chan bool)
 	go greet("Hello, World!", done)
 	go slowGreet("How are you?", done)
